@@ -1,0 +1,4 @@
+ALTER TABLE public.Cliente
+ADD CONSTRAINT fk 
+FOREIGN KEY (Id_cliente)
+REFERENCES Factura (Id_cliente);

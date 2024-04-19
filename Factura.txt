@@ -1,0 +1,13 @@
+CREATE TABLE Factura (
+  Id SERIAL PRIMARY KEY,
+  Id_cliente INT NOT NULL,
+  Nro_factura VARCHAR(255) NOT NULL,
+  Fecha_hora TIMESTAMP NOT NULL,
+  Total DECIMAL(10,2) NOT NULL,
+  Total_iva5 DECIMAL(10,2) NOT NULL,
+  Total_iva10 DECIMAL(10,2) NOT NULL,
+  Total_iva DECIMAL(10,2) NOT NULL,
+  Total_letras VARCHAR(255) NOT NULL,
+  Sucursal VARCHAR(255) NOT NULL,
+  PK (Id) 
+);

@@ -1,0 +1,12 @@
+CREATE TABLE Cliente (
+  Id SERIAL PRIMARY KEY,
+  Id_banco INT16
+  Nombre VARCHAR(255) NOT NULL,
+  Apellido VARCHAR(255) NOT NULL,
+  Documento VARCHAR(255) NOT NULL,
+  Direccion VARCHAR(255),
+  Mail VARCHAR(255),
+  Celular INT16,
+  Estado BOOLEAN
+ID PK
+);
